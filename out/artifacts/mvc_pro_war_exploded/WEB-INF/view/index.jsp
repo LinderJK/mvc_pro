@@ -7,8 +7,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="/resources/bootstrap-4.1.1/assets/css/docs.min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="<c:url value="/resources/bootstrap-4.1.1/dist/css/bootstrap.css"/>" rel="stylesheet" media="screen">
     <script src="<c:url value="/resources/jquery3.3.1/jquery-3.2.1.slim.min.js"/>"></script>
     <script src="<c:url value="/resources/ajax/popper.min.js"/>"></script>
@@ -25,34 +24,9 @@
 
 
 <body>
-
+<jsp:include page="/WEB-INF/footer/header.jsp"/>
 <!-- Navigation -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-    <div class="container">
-        <a class="navbar-brand" href="#">Start Bootstrap</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home
-                        <span class="sr-only">(current)</span>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link"  href="about.html">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Services</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</nav>
+
 
 <!-- Page Content -->
 <div class="container">
@@ -63,9 +37,9 @@
 
             <h1 class="my-4">Shop Name</h1>
             <div class="list-group">
-                <a href="#" class="list-group-item">Category 1</a>
-                <a href="#" class="list-group-item">Category 2</a>
-                <a href="#" class="list-group-item">Category 3</a>
+                <a href="cat1.html" class="list-group-item">Category 1</a>
+                <a href="cat2.html" class="list-group-item">Category 2</a>
+                <a href="cat3.html" class="list-group-item">Category 3</a>
             </div>
 
         </div>
@@ -211,12 +185,7 @@
 <!-- /.container -->
 
 <!-- Footer -->
-<footer class="py-5 bg-dark">
-    <div class="container">
-        <p class="m-0 text-center text-white">Copyright &copy; Your Website 2017</p>
-    </div>
-    <!-- /.container -->
-</footer>
+
 
 <!-- Bootstrap core JavaScript -->
 <script src="/resources/jquery3.3.1/jquery-3.3.1.min.js"></script>

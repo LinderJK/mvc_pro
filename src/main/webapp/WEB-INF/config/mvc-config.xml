@@ -25,6 +25,11 @@
 
     <mvc:view-controller path="/about.html" view-name="/about/about"/>
     <mvc:view-controller path="/index.html" view-name="/index"/>
+    <mvc:view-controller path="/contact.html" view-name="/contact/contact"/>
+    <mvc:view-controller path="/services.html" view-name="/services/services"/>
 
+    <mvc:view-controller path="/cat1.html" view-name="/category"/>
+    <mvc:view-controller path="/cat2.html" view-name="/category"/>
+    <mvc:view-controller path="/cat3.html" view-name="/category"/>
 
 </beans>
