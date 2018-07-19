@@ -13,7 +13,7 @@
 
 
 <body>
-<jsp:include page="/WEB-INF/footer/header.jsp"/>
+<jsp:include page="/WEB-INF/tags/header.jsp"/>
 
 
 
